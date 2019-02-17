@@ -8,18 +8,27 @@
 
 .container {
     width: 1440px;
+    
+/*
     margin-left: auto;
     margin-right: auto;
+    margin-top: 20px;
+    
+*/
+    margin: 20px auto 0 auto;
 }
 
 .side-text {
     width: 25%;
     float: right;
+    padding: 0 20px 0 20px;
+    border-left: 1px solid #808080;
 }
 
 .main-text {
     float:"left";
     width: 75%;
+    padding-right: 30px;
 }
 
 .main-title {
@@ -38,7 +47,9 @@
     
 }
 .other-text {
+    border-top: 1px solid #808080;
     text-align: center;
+    padding-top: 20px;
 }
 
 .right-side {
