@@ -33,11 +33,14 @@
 
 .main-title {
     font-family: Helvetic Neue, Arial;
+    text-align: center;
 }
 
-.side-pics {
-    max-width: 100%;
-    max-height: 100%;
+.side-text img {
+    width: 35%;
+    height: auto;
+    border-radius: 55%;
+    float: left;
 }
 
 .clearfix:after {
@@ -55,4 +58,17 @@
 .right-side {
     float:right;
     
+}
+
+.profile-name-text {
+    float:left;
+    font-size: 20px;
+    margin-top: 12%;
+    font-family: sans-serif;
+    text-decoration: underline;
+    padding-left: 5px;
+}
+
+.author-info {
+    text-align: center;
 }
