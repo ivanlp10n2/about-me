@@ -1,8 +1,11 @@
 #To implement
 
-h1 {
-    color:blue;
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
 }
+
 .container {
     width: 1440px;
     margin-left: auto;
@@ -10,8 +13,8 @@ h1 {
 }
 
 .side-text {
-    float:right;
     width: 25%;
+    float: right;
 }
 
 .main-text {
@@ -20,11 +23,25 @@ h1 {
 }
 
 .main-title {
-    font-family: fantasy;
-    font-size: 20px;
+    font-family: Helvetic Neue, Arial;
 }
 
 .side-pics {
     max-width: 100%;
     max-height: 100%;
+}
+
+.clearfix:after {
+    content: "";
+    display: table;
+    clear: both;
+    
+}
+.other-text {
+    text-align: center;
+}
+
+.right-side {
+    float:right;
+    
 }
