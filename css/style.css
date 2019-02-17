@@ -9,10 +9,21 @@ h1 {
     margin-right: auto;
 }
 
-.profile {
+.side-text {
     float:right;
+    width: 25%;
 }
 
 .main-text {
     float:"left";
+    width: 75%;
+}
+
+.main-title {
+    font-family: fantasy;
+    font-size: 20px;
+}
+
+.side-pics {
+    
 }
