@@ -6,69 +6,30 @@
     box-sizing: border-box;
 }
 
-.container {
-    width: 1440px;
-    
-/*
-    margin-left: auto;
-    margin-right: auto;
-    margin-top: 20px;
-    
-*/
-    margin: 20px auto 0 auto;
-}
-
-.side-text {
-    width: 25%;
-    float: right;
-    padding: 0 20px 0 20px;
-    border-left: 1px solid #808080;
-}
-
-.main-text {
-    float:"left";
-    width: 75%;
-    padding-right: 30px;
-}
-
-.main-title {
-    font-family: Helvetic Neue, Arial;
-    text-align: center;
-}
-
-.side-text img {
-    width: 35%;
-    height: auto;
-    border-radius: 55%;
-    float: left;
-}
-
-.clearfix:after {
-    content: "";
-    display: table;
-    clear: both;
-    
-}
-.other-text {
-    border-top: 1px solid #808080;
-    text-align: center;
-    padding-top: 20px;
-}
-
-.right-side {
-    float:right;
-    
-}
-
-.profile-name-text {
-    float:left;
+html {
+    background-color: #fff;
+    color: #404040;
+/*For any case*/
+    font-family: 'Lato', 'Arial', sans-serif;
     font-size: 20px;
-    margin-top: 12%;
-    font-family: sans-serif;
-    text-decoration: underline;
-    padding-left: 5px;
+    font-weight: 300;
+    
+/*Render fonts*/
+    text-rendering: optimizeLegibility;
 }
 
-.author-info {
-    text-align: center;
+.row {
+    max-width: 1140px;
+    margin-right: auto;
+    margin-left: auto;
+}
+
+.hero-title {
+    background-image: url("/resources/css/img/background-title.jpg");
+    /*view 100% of view port*/
+    height: 100vh;
+}
+
+h1 {
+    margin: 0;
 }
