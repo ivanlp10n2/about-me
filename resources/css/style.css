@@ -24,12 +24,46 @@ html {
     margin-left: auto;
 }
 
-.hero-title {
-    background-image: url("/resources/css/img/background-title.jpg");
-    /*view 100% of view port*/
+header {
+    background-image: url("/resources/css/img/background-header-img.jpg");
+    background-size: cover;
+    background-position: center;
+    /*view 100% of view port (page)*/
     height: 100vh;
+    
 }
 
-h1 {
+.hero-title {
+    position: absolute;
+    width: 1140px;
+    top: 50%;
+    left: 65%;
+    /* Put it as you want */
+    transform: translate(-50%, -50%);
+}
+
+h1, h2 {
     margin: 0;
+}
+
+
+.main-name {
+    color: rgb(232, 232, 232);
+    font-size: 450%;
+    padding-bottom: 1%
+}
+
+.role-name {
+    color: rgba(62, 48, 234, 0.75);
+    font-size: 250%;
+    padding-left: 10%
+}
+
+.profile-pic {
+    height: 30%;
+    width: 18%;
+    position: absolute;
+    top: 36%;
+    left: 8%;
+    border-radius: 50%;
 }
