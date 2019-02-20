@@ -28,7 +28,7 @@ header {
     background-image: url("/resources/css/img/background-header-img.jpg");
     background-size: cover;
     background-position: center;
-    /*view 100% of view port (page)*/
+/*view 100% of view port (page)*/
     height: 100vh;
     
 }
@@ -38,7 +38,7 @@ header {
     width: 1140px;
     top: 50%;
     left: 65%;
-    /* Put it as you want */
+/* set position as you probably want to */
     transform: translate(-50%, -50%);
 }
 
@@ -50,20 +50,60 @@ h1, h2 {
 .main-name {
     color: rgb(232, 232, 232);
     font-size: 450%;
-    padding-bottom: 1%
+    padding-bottom: 1%;
+    font-weight: 500;
+    letter-spacing: 1px;
+    word-spacing: 3px;
 }
 
 .role-name {
     color: rgba(62, 48, 234, 0.75);
     font-size: 250%;
-    padding-left: 10%
+    padding-left: 10%;
+    letter-spacing: 1px;
+    word-spacing: 5px;
 }
 
-.profile-pic {
+.profile-pic {  
     height: 30%;
     width: 18%;
     position: absolute;
     top: 36%;
     left: 8%;
     border-radius: 50%;
+}
+
+
+.nav-link-header {
+    position: absolute;
+    right: 3%;
+    top: 1%;
+}
+
+.link-header {
+    font-family: "Lato", sans-serif;
+    color: #ffffff;
+    font-size: 130%;
+}
+
+ul {
+    display: inline-block;  
+}
+
+li {
+    float: left;
+    list-style: none;
+    overflow: hidden;
+}
+
+
+li a {
+    padding: 15px;
+    display: block;
+    text-align: center;
+    text-decoration: none;
+}
+
+li a:hover {
+    background-color: rgba(3, 18, 69, 0.69);
 }
