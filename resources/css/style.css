@@ -25,7 +25,7 @@ html {
 }
 
 header {
-    background-image: url("/resources/css/img/background-title.jpg");
+    background-image: url("resources/css/img/background-title.jpg");
     background-size: cover;
     background-position: center;
 /*view 100% of view port (page)*/
