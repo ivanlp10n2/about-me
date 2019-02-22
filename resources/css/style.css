@@ -36,31 +36,6 @@ h1, h2 {
 }
 
 
-ul {
-    display: inline-block;  
-}
-
-li {
-    float: left;
-    list-style: none;
-    overflow: hidden;
-}
-
-
-li a {
-    padding: 15px;
-    display: block;
-    text-align: center;
-    text-decoration: none;
-}
-
-li a:hover,
-li a:focus{
-    background-color: rgba(3, 18, 69, 0.69);
-    /*color transition  :D */
-    transition: background-color 0.5s
-}
-
 /*----------------------------------------*/
 /*              MAIN PAGE                 */
 /*----------------------------------------*/
@@ -109,14 +84,46 @@ header {
 }
 
 
+.link-header {
+    font-family: "Lato", sans-serif;
+    color: #ffffff;
+    font-size: 130%;
+}
+
+/*----------------------------------------*/
+/*              NAV HEADER                */
+/*----------------------------------------*/
+
+
 .nav-link-header {
     position: absolute;
     right: 3%;
     top: 1%;
 }
 
-.link-header {
-    font-family: "Lato", sans-serif;
-    color: #ffffff;
-    font-size: 130%;
+.nav-link-header ul {
+    display: inline-block;  
+}
+
+.nav-link-header li {
+    float: left;
+    list-style: none;
+    overflow: hidden;
+    
+}
+
+
+.nav-link-header li a {
+    padding: 20px;
+    display: block;
+    text-align: center;
+    text-decoration: none;
+    border-radius: 100px;
+}
+
+.nav-link-header li a:hover
+{
+    background-color: rgba(3, 18, 69, 0.69);
+    /*color transition  :D */
+    transition: background-color 0.5s
 }
