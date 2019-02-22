@@ -1,5 +1,7 @@
 #To implement
-
+/*----------------------------------------*/
+/*             BASIC SETUP                */
+/*----------------------------------------*/
 * {
     margin: 0;
     padding: 0;
@@ -18,73 +20,21 @@ html {
     text-rendering: optimizeLegibility;
 }
 
+/*----------------------------------------*/
+/*          REUSABLE COMPONENTS           */
+/*----------------------------------------*/
+
 .row {
     max-width: 1140px;
     margin-right: auto;
     margin-left: auto;
 }
 
-header {
-    background-image: url(../css/img/background-title.jpg);
-    background-size: cover;
-    background-position: center;
-/*view 100% of view port (page)*/
-    height: 100vh;
-    
-}
-
-.hero-title {
-    position: absolute;
-    width: 1140px;
-    top: 50%;
-    left: 65%;
-/* set position as you probably want to */
-    transform: translate(-50%, -50%);
-}
 
 h1, h2 {
     margin: 0;
 }
 
-
-.main-name {
-    color: rgb(232, 232, 232);
-    font-size: 450%;
-    padding-bottom: 1%;
-    font-weight: 500;
-    letter-spacing: 1px;
-    word-spacing: 3px;
-}
-
-.role-name {
-    color: rgba(62, 48, 234, 0.75);
-    font-size: 250%;
-    padding-left: 10%;
-    letter-spacing: 1px;
-    word-spacing: 5px;
-}
-
-.profile-pic {  
-    height: 30%;
-    width: 18%;
-    position: absolute;
-    top: 36%;
-    left: 8%;
-    border-radius: 50%;
-}
-
-
-.nav-link-header {
-    position: absolute;
-    right: 3%;
-    top: 1%;
-}
-
-.link-header {
-    font-family: "Lato", sans-serif;
-    color: #ffffff;
-    font-size: 130%;
-}
 
 ul {
     display: inline-block;  
@@ -104,6 +54,69 @@ li a {
     text-decoration: none;
 }
 
-li a:hover {
+li a:hover,
+li a:focus{
     background-color: rgba(3, 18, 69, 0.69);
+    /*color transition  :D */
+    transition: background-color 0.5s
+}
+
+/*----------------------------------------*/
+/*              MAIN PAGE                 */
+/*----------------------------------------*/
+
+
+header {
+    background-image: url(../css/img/background-header-img.jpg);
+    background-size: cover;
+    background-position: center;
+/*view 100% of view port (page)*/
+    height: 100vh;
+    
+}
+
+.hero-title {
+    position: absolute;
+    width: 1140px;
+    top: 50%;
+    left: 50%;
+/* set position as you probably want to */
+    transform: translate(-50%, -50%);
+}
+
+.main-name {
+    color: rgb(232, 232, 232);
+    font-size: 450%;
+    padding-bottom: 1%;
+    font-weight: 500;
+    letter-spacing: 1px;
+    word-spacing: 3px;
+}
+
+.role-name {
+    color: rgba(62, 48, 234, 0.75);
+    font-size: 250%;
+    padding-left: 10%;
+    letter-spacing: 1px;
+    word-spacing: 5px;
+}
+
+.profile-pic {
+    float:left;
+    height: 200%;
+    width: 20%;
+    border-radius: 50%;
+}
+
+
+.nav-link-header {
+    position: absolute;
+    right: 3%;
+    top: 1%;
+}
+
+.link-header {
+    font-family: "Lato", sans-serif;
+    color: #ffffff;
+    font-size: 130%;
 }
