@@ -127,3 +127,12 @@ header {
     /*color transition  :D */
     transition: background-color 0.5s
 }
+
+/*----------------------------------------*/
+/*              SECTION ABOUT             */
+/*----------------------------------------*/
+
+
+.section-about {
+    background-color: #b2e5fc;
+}
