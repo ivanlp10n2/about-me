@@ -42,7 +42,8 @@ h1, h2 {
 
 
 header {
-    background-image: url(../css/img/background-header-img.jpg);
+   /* background-image: url(../css/img/background-header-img.jpg);*/
+    background-image: linear-gradient(rgba(0,0,0,0.7), rgba(52, 152, 219,1.0)), url(../css/img/background-dev.jpg);
     background-size: cover;
     background-position: center;
 /*view 100% of view port (page)*/
