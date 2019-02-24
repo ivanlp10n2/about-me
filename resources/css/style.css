@@ -37,68 +37,13 @@ h1, h2 {
 
 
 /*----------------------------------------*/
-/*              MAIN PAGE                 */
-/*----------------------------------------*/
-
-
-header {
-   /* background-image: url(../css/img/background-header-img.jpg);*/
-    background-image: linear-gradient(rgba(0,0,0,0.7), rgba(52, 152, 219,1.0)), url(../css/img/background-dev.jpg);
-    background-size: cover;
-    background-position: center;
-/*view 100% of view port (page)*/
-    height: 100vh;
-    
-}
-
-.hero-title {
-    position: absolute;
-    width: 1140px;
-    top: 50%;
-    left: 50%;
-/* set position as you probably want to */
-    transform: translate(-50%, -50%);
-}
-
-.main-name {
-    color: rgb(232, 232, 232);
-    font-size: 450%;
-    padding-bottom: 1%;
-    font-weight: 500;
-    letter-spacing: 1px;
-    word-spacing: 3px;
-}
-
-.role-name {
-    color: rgba(62, 48, 234, 0.75);
-    font-size: 250%;
-    padding-left: 10%;
-    letter-spacing: 1px;
-    word-spacing: 5px;
-}
-
-.profile-pic {
-    float:left;
-    height: 200%;
-    width: 20%;
-    border-radius: 50%;
-}
-
-
-.link-header {
-    font-family: "Lato", sans-serif;
-    color: #ffffff;
-    font-size: 130%;
-}
-
-/*----------------------------------------*/
 /*              NAV HEADER                */
 /*----------------------------------------*/
 
 
 .nav-link-header {
     position: absolute;
-    right: 3%;
+    right: 15%;
     top: 1%;
 }
 
@@ -129,6 +74,70 @@ header {
     transition: background-color 0.5s
 }
 
+
+
+/*----------------------------------------*/
+/*              MAIN PAGE                 */
+/*----------------------------------------*/
+
+
+header {
+    background-image: url(../css/img/background-header-img.jpg);
+    /*background-image: linear-gradient(rgba(28, 49, 65, 0.85), rgba(52, 152, 219, 0.75)), url(../css/img/background-dev.jpg);*/
+    background-size: cover;
+    background-position: center;
+/*view 100% of view port (page)*/
+    height: 100vh;
+    
+}
+
+.hero-title {
+    position: absolute;
+    width: 1140px;
+    top: 50%;
+    left: 50%;
+/* set position as you probably want to */
+    transform: translate(-50%, -50%);
+}
+
+.main-name {
+    color: rgb(232, 232, 232);
+    font-size: 550%;
+    padding-bottom: 1%;
+    font-weight: 500;
+    letter-spacing: 1px;
+    word-spacing: 3px;
+    text-align: center;
+}
+
+.role-name {
+    color: rgba(62, 48, 234, 0.75);
+    font-size: 250%;
+    letter-spacing: 1px;
+    font-weight: 500;
+    word-spacing: 5px;
+    text-align: right;
+}
+
+.profile-pic {
+    float:left;
+    height: 200%;
+    width: 20%;
+    border-radius: 50%;
+}
+
+
+.link-header {
+    font-family: "Lato", sans-serif;
+    color: #ffffff;
+    font-size: 130%;
+}
+
+.title-intense-color {
+    color: rgb(255, 154, 35);
+    font-weight: bold;
+}
+
 /*----------------------------------------*/
 /*              SECTION ABOUT             */
 /*----------------------------------------*/
@@ -137,3 +146,4 @@ header {
 .section-about {
     background-color: #b2e5fc;
 }
+
