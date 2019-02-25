@@ -48,10 +48,23 @@ h2 {
     text-align: center;
     font-weight: bold;
     font-size: 200%;
+    margin-bottom: 30px;
+}
+
+h2:after {
+    display: block;
+    height: 2px;
+    /*Intensified color for contrast purposes*/
+    background-color: rgb(255, 138, 0);
+    /*You must specify blank content if you will create a after property*/
+    content: " ";
+    width: 100px;
+    margin: 0 auto;
+    margin-top: 30px;
 }
 
 section{
-    padding: 100px 0;
+    padding: 50px 0;
 }
 
 
@@ -163,7 +176,7 @@ header {
 
 
 .section-about {
-    background-color: #b2e5fc;
+    
 }
 
 
