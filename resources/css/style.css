@@ -147,3 +147,14 @@ header {
     background-color: #b2e5fc;
 }
 
+
+.about-pic {
+    float:left;
+    width: 35%;
+}
+
+.short-description {
+    text-align: center;
+    font-weight: bold;
+    font-size: 200%
+}
