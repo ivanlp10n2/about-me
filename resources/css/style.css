@@ -20,6 +20,11 @@ html {
     text-rendering: optimizeLegibility;
 }
 
+.clearfix{
+    overflow: auto;
+    clear:both;
+}
+
 /*----------------------------------------*/
 /*          REUSABLE COMPONENTS           */
 /*----------------------------------------*/
@@ -33,6 +38,10 @@ html {
 
 h1, h2 {
     margin: 0;
+}
+
+section{
+    padding: 100px 0;
 }
 
 
