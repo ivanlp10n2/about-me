@@ -114,6 +114,7 @@ section{
     display: block;
     padding: 0 10px 10px 10px;
     border-bottom: 2px solid transparent;
+    transition: border-bottom 0.3s;
 }
 
 .nav-link-header li a:hover,
