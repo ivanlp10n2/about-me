@@ -29,13 +29,8 @@ html {
 /*          REUSABLE COMPONENTS           */
 /*----------------------------------------*/
 
-.row {
-    max-width: 1140px;
-    margin-right: auto;
-    margin-left: auto;
-}
-
-h1, h2 {
+h1, 
+h2 {
     letter-spacing: 1px;
     word-spacing: 3px;
 }
@@ -62,6 +57,13 @@ h2:after {
     margin: 0 auto;
     margin-top: 30px;
 }
+
+.row {
+    max-width: 1140px;
+    margin-right: auto;
+    margin-left: auto;
+}
+
 
 section{
     padding: 50px 0;
@@ -172,13 +174,6 @@ header {
     margin: 0;
 }
 
-.profile-pic {
-    float:left;
-    height:auto;
-    width: 240px;
-    border-radius: 30px;    
-}
-
 .title-intense-color {
     color: rgb(255, 154, 35);
     font-weight: bold;
@@ -189,17 +184,21 @@ header {
 /*----------------------------------------*/
 
 
-.section-about {
-    
-}
-
 
 .about-pic {
     float:left;
-    width: 35%;
+    width: 25%;
+    padding: 10% 5% 10% 0;
+    /*Cool style bc of weird transformation. Seems legit :) */
+    border-radius: 40%;
 }
 
-.short-description {
+.long-description {
+    padding-top: 2%;
+    float:right;
+    width: 70%;
+    line-height: 25px;
+    display:block;
     
 }
 
