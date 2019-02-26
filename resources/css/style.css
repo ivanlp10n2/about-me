@@ -8,7 +8,8 @@
     box-sizing: border-box;
 }
 
-html {
+html,
+body{
     background-color: #fff;
     color: #404040;
 /*For any case*/
@@ -208,3 +209,7 @@ header {
 
 
 
+
+.section-skill {
+    background-color: aquamarine;
+}
