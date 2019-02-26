@@ -8,7 +8,8 @@
     box-sizing: border-box;
 }
 
-html {
+html,
+body{
     background-color: #fff;
     color: #404040;
 /*For any case*/
@@ -30,13 +31,14 @@ html {
 /*----------------------------------------*/
 
 h1, 
-h2 {
-    letter-spacing: 1px;
+h2,
+h3{
     word-spacing: 3px;
 }
 
 h1{
     margin-top: 0;
+    letter-spacing: 1px; 
 }
 
 h2 {
@@ -44,6 +46,11 @@ h2 {
     font-weight: bold;
     font-size: 200%;
     margin-bottom: 30px;
+    letter-spacing: 1px;
+}
+
+h3{
+    word-spacing: 2px;
 }
 
 h2:after {
@@ -69,6 +76,14 @@ section{
     padding: 50px 0;
 }
 
+/*----------------------------------------*/
+/*                ICONS                   */
+/*----------------------------------------*/
+
+.icon{
+    font-size: 40px;
+    /*color: rgb(255, 138, 0);*/
+}
 
 /*----------------------------------------*/
 /*              NAV HEADER                */
@@ -180,7 +195,7 @@ header {
 }
 
 /*----------------------------------------*/
-/*              SECTION ABOUT             */
+/*              ABOUT SECTION             */
 /*----------------------------------------*/
 
 
@@ -202,4 +217,18 @@ header {
     
 }
 
+/*----------------------------------------*/
+/*              SKILL SECTION             */
+/*----------------------------------------*/
 
+
+
+
+.section-skill {
+    background-color: rgb(245, 245, 220);
+    /*background-color: rgb(100, 235, 235);*/
+}
+
+.skill-title {
+    color: rgb(255, 138, 0);
+}
