@@ -1,0 +1,15 @@
+Logo Ivan Monzon as designed 
+
+Nav: 
+	- About
+	- Skills
+	- FAQ
+	- Contact me
+
+Title: Hi! I'm Ivan Monzon 
+
+Role Title: A passionated Software developer
+
+Buttons: Download resume | Enter profile
+
+
