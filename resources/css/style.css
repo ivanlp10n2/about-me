@@ -29,13 +29,8 @@ html {
 /*          REUSABLE COMPONENTS           */
 /*----------------------------------------*/
 
-.row {
-    max-width: 1140px;
-    margin-right: auto;
-    margin-left: auto;
-}
-
-h1, h2 {
+h1, 
+h2 {
     letter-spacing: 1px;
     word-spacing: 3px;
 }
@@ -62,6 +57,13 @@ h2:after {
     margin: 0 auto;
     margin-top: 30px;
 }
+
+.row {
+    max-width: 1140px;
+    margin-right: auto;
+    margin-left: auto;
+}
+
 
 section{
     padding: 50px 0;
@@ -189,18 +191,18 @@ header {
 /*----------------------------------------*/
 
 
-.section-about {
-    
-}
-
 
 .about-pic {
     float:left;
-    width: 35%;
+    width: 20%;
+    padding: 10% 5% 10% 0;
 }
 
-.short-description {
-    
+.long-description {
+    float:right;
+    width: 70%;
+    line-height: 25px;
+    display:block;
 }
 
 
