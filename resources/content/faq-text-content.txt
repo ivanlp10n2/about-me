@@ -1,4 +1,4 @@
-Title: Frequent Asked Questions (or some points I want to make) 
+Title: Frequent Asked Questions (or some points I want to makeQ: Your website seems cool but.. What are you specialized to?) 
 
 Q: Your website seems cool but.. What are you specialized to?
 A: I have been developing on Java (Android and JavaX) as side-projects and Spring framework (Java webapp) for an airline company as consultant for near 2 years on two projects. 
