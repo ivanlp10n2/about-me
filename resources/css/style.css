@@ -241,10 +241,10 @@ header {
     
 }
 
-faq-question{
-    
+.faq-question {
+ font-weight: bold;   
 }
 
-faq-answer {
+.faq-answer {
     
 }
