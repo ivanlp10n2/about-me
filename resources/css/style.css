@@ -258,5 +258,19 @@ header {
 }
 
 .contact-form{
-    
+    width: 60%;
+    margin: 30px auto;
+}
+
+input[type=text],
+input[type=email],
+textarea{
+    width: 100%;
+    padding: 7px;
+    border-radius: 5px;
+    border: 1px solid #ccc;
+}
+
+.contact-form textarea{
+    height: 120px;
 }
