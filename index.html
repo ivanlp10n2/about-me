@@ -188,18 +188,43 @@
             <div class="row">
                 <form method="POST" action="#" class="contact-form">
                 <div class="row">
-                    <label alt="Name"> Name: </label>
-                    <input alt="Input your name" value="Insert your name please"/>
+                    <div class="col span-1-of-3">
+                        <label for="name"> Name </label>
+                    </div>
+                    <div class="col span-2-of-3">
+                        <input alt="Input your name" id="name" name="name" placeholder="Your name" required>
+                    </div>
                 </div>
                 <div class="row">
-                    <label alt="E-mail"> E-mail: </label>
-                    <input alt="Input your e-mail" value="Insert your e-mail please"/>
+                    <div class="col span-1-of-3">
+                        <label for="email"> E-mail </label>
+                    </div>
+                    <div class="col span-2-of-3">
+                        <input type="email" id="email" name="email" alt="Input your e-mail" placeholder="Your e-mail" required>
+                    </div>
                 </div>
                 <div class="row">
-                    <label alt="Message"> Message: </label>
-                    <input alt="Input your message" value=" What's on your mind? Chances are, my page sucks and you need to write down how awful it is. My page is really awesome and you need to write it down how great it is. You found a possible prospect and have a great offer to make!
-            Chat me and I'll get back to you soon after I receive this message."/>
+                    <div class="col span-1-of-3">
+                        <label for="message"> Message </label>
+                    </div>
+                    <div class="col span-2-of-3">
+                        <textarea type="text" id="message" name="message" 
+                               placeholder=" What's on your mind? Chances are, my page sucks and you need to write down how awful it is. My page is really awesome and you need to write it down how great it is. You found a possible prospect and have a great offer to make!
+                                Chat me and I'll get back to you soon after I receive this message." 
+                                  required></textarea>
+                        
+                    </div>
                 </div>
+                
+                <div class="row">
+                    <div class="col span-1-of-3">
+                        <label> &nbsp; </label>
+                    </div>
+                    <div class="col span-2-of-3">
+                        <input type="submit" value="Send it!">
+                    </div>
+                </div>
+                    
                 </form>
             </div>
         </section>
