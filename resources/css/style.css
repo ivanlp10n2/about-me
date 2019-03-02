@@ -248,3 +248,96 @@ header {
 .faq-answer {
     
 }
+
+/*----------------------------------------*/
+/*           CONTACT SECTION              */
+/*----------------------------------------*/
+
+.section-contact{
+    background-color: #f4f4f4;
+}
+
+.contact-form{
+    width: 60%;
+    margin: 30px auto;
+}
+
+input[type=text],
+input[type=email],
+textarea{
+    width: 100%;
+    padding: 7px;
+    border-radius: 5px;
+    border: 1px solid #ccc;
+}
+
+.contact-form textarea{
+    height: 120px;
+}
+
+/*----------------------------------------*/
+/*            FOOTER SECTION              */
+/*----------------------------------------*/
+
+.section-footer {
+    background-color: rgb(11, 14, 16);
+    list-style: none;
+}
+
+.footer-nav li,
+.footer-nav li a,
+.social-nav li,
+.social-nav li a,
+.section-footer .icon
+{
+    color: #ffff;
+    display: inline-block;
+    margin-right: 25px;
+}
+
+.footer-nav li:last-child,
+.social-nav li:last-child {
+    margin-right: 0;
+}
+
+.footer-nav li a:link,
+.footer-nav li a:visited,
+.social-link li a:link,
+.social-link li a:visited {
+    text-decoration: none;
+    border: 0;
+}
+
+.footer-nav {
+    padding-left: 0;
+    float:left;
+}
+
+.social-nav {
+    float:right;
+    padding-right: 25%;
+}
+
+.section-footer .icon{
+    transition: color 0.2s;
+}
+
+.ion-logo-linkedin:hover,
+.ion-logo-linkedin:active
+{
+    color: #007bb5;
+}
+
+.ion-logo-github:hover,
+.ion-logo-github:active{
+    color: #6b6b6c;
+}
+
+.footer-nav li a:hover,
+.footer-nav li a:active {
+    color: #8b8282;
+}
+
+.footer-nav li a {
+    transition: color 0.2s;
+}
