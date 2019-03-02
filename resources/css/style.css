@@ -341,3 +341,14 @@ textarea{
 .footer-nav li a {
     transition: color 0.2s;
 }
+.social-media-text {
+    margin: 0 auto;
+    text-align: right;
+    color: #9d8f76;
+}
+
+.goodbye-text {
+    text-align: center;
+    color: #96a2b2;
+    margin: 0 0 10px 0;
+}
