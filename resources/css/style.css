@@ -348,11 +348,12 @@ textarea{
     border-color:rgb(255, 154, 35);
     text-transform: uppercase;
     display: block;
-    padding: 20px 80px;
+    padding: 20px 120px;
     margin: auto;
     text-decoration: none;
     border-radius: 200px;
     transition: background-color 0.4s, border 0.4s, color 0.4s;
+    float: right;
 }
 
 .btn-submit:hover,
