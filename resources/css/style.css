@@ -135,7 +135,8 @@ section{
 }
 
 .nav-link-header li a:hover,
-.nav-link-header li a:active
+.nav-link-header li a:active,
+.nav-link-header li a:focus
 {
     border-bottom: 2px solid rgb(255, 138, 0);
 }
@@ -246,7 +247,8 @@ header {
 }
 
 .resume-buttons li a:hover,
-.resume-buttons li a:active
+.resume-buttons li a:active,
+.resume-buttons li a:focus
 {
     border-bottom: 2px solid #fff;
 }
@@ -330,6 +332,35 @@ textarea{
 
 .contact-form textarea{
     height: 120px;
+}
+
+.contact-form { 
+    padding: 50px 0;
+}
+
+.contact-form .row + .row:before{
+    content: "";
+    padding: 15px 20px;
+}
+
+.btn-submit{
+    color: rgb(255, 154, 35);
+    border-color:rgb(255, 154, 35);
+    text-transform: uppercase;
+    display: block;
+    padding: 20px 120px;
+    margin: auto;
+    text-decoration: none;
+    border-radius: 200px;
+    transition: background-color 0.4s, border 0.4s, color 0.4s;
+    float: right;
+}
+
+.btn-submit:hover,
+.btn-submit:active,
+.btn-submit:focus{
+    background-color: rgb(255, 154, 35);
+    color: #fff;
 }
 
 /*----------------------------------------*/
