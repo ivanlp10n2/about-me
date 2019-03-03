@@ -332,6 +332,15 @@ textarea{
     height: 120px;
 }
 
+.contact-form { 
+    padding: 50px 0;
+}
+
+.contact-form .row + .row:before{
+    content: "";
+    padding: 15px 20px;
+}
+
 /*----------------------------------------*/
 /*            FOOTER SECTION              */
 /*----------------------------------------*/
