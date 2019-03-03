@@ -148,7 +148,7 @@ section{
 
 header {
     background-image: url(../css/img/background-header-img.jpg);
-    /*background-image: linear-gradient(rgba(28, 49, 65, 0.85), rgba(52, 152, 219, 0.75)), url(../css/img/background-dev.jpg);*/
+/*    background: linear-gradient(135deg, rgba(85,239,203,1) 0%,rgba(30,87,153,1) 0%,rgba(85,239,203,1) 0%,rgba(91,202,255,1) 100%);*/
     background-size: cover;
     background-position: center;
 /*view 100% of view port (page)*/
@@ -192,6 +192,63 @@ header {
 .title-intense-color {
     color: rgb(255, 154, 35);
     font-weight: bold;
+}
+
+
+.resume-buttons {
+    text-align: center;
+    letter-spacing: 5px;
+    padding: 0 240px;
+}
+
+.resume-buttons ul {
+    margin-top: 50px;
+    padding-left: 0;
+    padding-top: 5px;
+    border: 1px solid #fff;
+}
+
+.bar-separator {
+    margin: 0;
+    color: #fff;
+    padding: 30px;
+    display: inline-block;
+    height: 35px;
+    font-weight: bold;
+}
+
+.resume-buttons li {
+    display: inline-block;
+    padding: 20px 20px 10px 20px;
+    text-align: center;
+    overflow:hidden;
+}
+
+.resume-buttons li a{
+    text-decoration: none;
+    text-transform: uppercase;
+    color: #ffff;
+}
+
+/*Check this magic trick dude, holy moly */
+/*.resume-buttons li + li:before{
+    display: block;
+    content: " Something ";
+}*/
+
+.resume-buttons li a:link,
+.resume-buttons li a:visited
+{
+    display: block;
+    padding: 0 10px 10px 10px;
+    border-bottom: 2px solid transparent;
+    transition: border-bottom 0.3s;
+}
+
+.resume-buttons li a:hover,
+.resume-buttons li a:active
+{
+    border-bottom: 2px solid #fff;
 }
 
 /*----------------------------------------*/
