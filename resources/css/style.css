@@ -197,7 +197,15 @@ header {
 
 .resume-buttons {
     text-align: center;
+    letter-spacing: 5px;
+    padding: 0 240px;
+}
+
+.resume-buttons ul {
     margin-top: 50px;
+    padding-left: 0;
+    padding-top: 5px;
+    border: 1px solid #fff;
 }
 
 .bar-separator {
@@ -211,7 +219,7 @@ header {
 
 .resume-buttons li {
     display: inline-block;
-    padding: 20px;
+    padding: 20px 20px 10px 20px;
     text-align: center;
     overflow:hidden;
 }
