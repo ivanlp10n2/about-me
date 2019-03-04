@@ -1,0 +1,23 @@
+TODO: 
+
+DONE	- Finish design of buttons on header
+DONE	- Finish design of submit button
+
+	- Make a better padding at button page
+	
+	- Setup colors and bold words in QA section
+
+	- Setup alt's for img
+
+
+
+	- Make it acutally reponsive
+
+	- Setup Sticky bar and color effects
+
+	- Make send info actually works 
+
+
+
+
+	
