@@ -3,8 +3,10 @@ TODO:
 DONE	- Finish design of buttons on header
 DONE	- Finish design of submit button
 
-	- Make a better padding at button page
+DONE	- Make a better padding at button page
 	
+DONE	- Add real links to social media
+
 	- Setup colors and bold words in QA section
 
 	- Setup alt's for img
