@@ -5,6 +5,7 @@
 * {
     margin: 0;
     padding: 0;
+    -webkit-box-sizing: border-box;
     box-sizing: border-box;
 }
 
@@ -131,6 +132,7 @@ section{
     display: block;
     padding: 0 10px 10px 10px;
     border-bottom: 2px solid transparent;
+    -webkit-transition: border-bottom 0.3s;
     transition: border-bottom 0.3s;
 }
 
@@ -163,6 +165,7 @@ header {
     top: 45%;
     left: 50%;
 /* set position as you probably want to */
+    -webkit-transform: translate(-50%, -50%);
     transform: translate(-50%, -50%);
 }
 
@@ -243,6 +246,7 @@ header {
     display: block;
     padding: 0 10px 10px 10px;
     border-bottom: 2px solid transparent;
+    -webkit-transition: border-bottom 0.3s;
     transition: border-bottom 0.3s;
 }
 
@@ -357,6 +361,7 @@ textarea{
     margin: auto;
     text-decoration: none;
     border-radius: 200px;
+    -webkit-transition: background-color 0.4s, border 0.4s, color 0.4s;
     transition: background-color 0.4s, border 0.4s, color 0.4s;
     float: right;
 }
@@ -412,6 +417,7 @@ textarea{
 }
 
 .section-footer .icon{
+    -webkit-transition: color 0.2s;
     transition: color 0.2s;
 }
 
@@ -435,6 +441,7 @@ textarea{
 }
 
 .footer-nav li a {
+    -webkit-transition: color 0.2s;
     transition: color 0.2s;
 }
 .social-media-text {
