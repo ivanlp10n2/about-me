@@ -7,9 +7,9 @@ DONE	- Make a better padding at button page
 	
 DONE	- Add real links to social media
 
-	- Setup colors and bold words in QA section
+DONE	- Setup colors and bold words in QA section
 
-	- Setup alt's for img
+DONE	- Setup alt's for img
 
 
 
