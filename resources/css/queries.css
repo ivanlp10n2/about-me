@@ -73,3 +73,22 @@
     }
     
 }
+
+@media only screen and (max-width: 650px) {
+
+    .row, 
+    .hero-title{
+        padding: 0 0;
+    }
+    
+    .col{ width: 100%}
+    
+    .skill-title { 
+        text-align: center;
+        font-size: 150%;
+    }
+    
+    .icon{
+        padding: 0 50%;
+    }
+}
