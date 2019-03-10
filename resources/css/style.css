@@ -20,6 +20,7 @@ body{
     
 /*Render fonts*/
     text-rendering: optimizeLegibility;
+    overflow-x:hidden;
 }
 
 .clearfix{
