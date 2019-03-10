@@ -1,20 +1,28 @@
 @media only screen and (max-width: 1366px) {
-    body{ font-size: 15px;}
+    body{ font-size: 17px;}
     
     /*----------------------------------------*/
     /*              MAIN PAGE                 */
     /*----------------------------------------*/
     
-    .main-name { margin-left: 22%;
+    .main-name { margin-left: 18%;
                 margin-bottom: 1%;}
 
     .resume-buttons {
         padding: 0 280px;
     }
 
-    .section {
+    section {
         padding: 60px 15%;
+    }
+    
+    .faq-question {
+        padding-top: 15px;
     }
 }
 
-@media only screen and (max-width: )
+@media only screen and (max-width: 1024px) {
+    section {
+        padding: 60px 10%;
+    }
+}
