@@ -1,3 +1,22 @@
-@media only screen and (max-width: 1024px) {
-    .section-about .row{ max-width: 1024px }
+@media only screen and (max-width: 1366px) {
+    .nav-link-header li {
+        font-size: 100%;
+    }
+    
+    .main-name { margin-left: 22%;
+                margin-bottom: 1%;}
+    
+    .welcome-title { font-size: 125%;}
+    .title-name { font-size: 75%;
+                letter-spacing: 2px;}
+    .role-name { font-size: 190%;}
+    
+    .resume-buttons {
+        padding: 0 280px;
+    }
+    .resume-buttons ul { 
+        margin-top: 25px;
+        font-size: 80%;}
 }
+
+@media only screen and (max-width: )
