@@ -1,3 +1,94 @@
-@media only screen and (max-width: 1366) {
+@media only screen and (max-width: 1366px) {
+    body{ font-size: 17px;}
     
+    /*----------------------------------------*/
+    /*              MAIN PAGE                 */
+    /*----------------------------------------*/
+    
+    .main-name { margin-left: 18%;
+                margin-bottom: 1%;}
+
+    .resume-buttons {
+        padding: 0 280px;
+    }
+
+    section {
+        padding: 60px 15%;
+    }
+    
+    .faq-question {
+        padding-top: 15px;
+    }
+}
+
+@media only screen and (max-width: 1200px) {
+    
+    .nav-link-header li:last-child {
+        margin-right: 5%;
+    }
+    
+    .footer-nav {
+        padding-left: 25%;
+    }
+    
+}
+
+@media only screen and (max-width: 1024px) {
+    
+    section {
+        padding: 60px 10%;
+    }
+    
+    ..nav-link-header li {
+        margin: 20px 30px 0 30px;
+    }
+    
+    .about-pic {
+        /*We had a little issue when using padding rofl 
+        better  use margin to keep the picture style*/
+        margin-top: 10%;
+    }
+    
+    .faq-question {
+        padding-top: 15px;
+    }
+    
+    .skill-title, .skill-description, .faq-answer {
+        line-height: 130%;
+    }
+    
+}
+
+@media only screen and (max-width: 800px) {
+    body {
+        font-size: 15px;
+    }
+    .nav-link-header{ display: none;}
+    
+    .main-name { margin-left: 22%;
+                margin-bottom: 1%;}
+    
+    .footer-nav {
+        padding-left: 10%;
+    }
+    
+}
+
+@media only screen and (max-width: 650px) {
+
+    .row, 
+    .hero-title{
+        padding: 0 0;
+    }
+    
+    .col{ width: 100%}
+    
+    .skill-title { 
+        text-align: center;
+        font-size: 150%;
+    }
+    
+    .icon{
+        padding: 0 50%;
+    }
 }
