@@ -162,3 +162,35 @@
         width: auto;
     }
 }
+
+@media only screen and (max-width: 450px) {
+    
+    .main-name{font-size: 280%;}
+    
+    .role-name{ font-size: 120%;}
+    
+    .main-name { margin-left: 36%;
+                margin-bottom: 1%;}
+    
+    .resume-buttons ul{ margin-top: 10px;}
+    
+    .resume-buttons {
+        padding: 0 410px;
+        font-size: 50%;
+    }
+    
+    .resume-buttons li{padding: 10px 5px 5px 0px;}
+    .bar-separator{height:20px;}
+    
+    .resume-buttons li a:link{
+        padding: 0 1px 10px 1px;
+    }
+    
+    section{
+        padding: 40px 4%;
+    }
+    
+    .btn-submit {
+        padding:20px 80px;
+    }
+}
