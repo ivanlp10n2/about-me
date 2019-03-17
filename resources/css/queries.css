@@ -63,10 +63,15 @@
     
 }
 
-@media only screen and (max-width: 800px) {
+@media only screen and (max-width: 820px) {
     body {
         font-size: 15px;
     }
+    
+    section {
+        padding: 60px 5%;
+    }
+    
     .nav-link-header{ display: none;}
     
     .main-name { margin-left: 22%;
@@ -76,12 +81,31 @@
         padding-left: 2%;
     }
     .footer-nav li a{
-        font-size: 15px;
+        font-size: 13px;
     }
 }
 
 @media only screen and (max-width: 650px) {
+    
+    /*----------------------------------------*/
+    /*              MAIN PAGE                 */
+    /*----------------------------------------*/
+    
+    .main-name{font-size: 480%;}
+    
+    .role-name{ font-size: 220%;}
+    
+    .main-name { margin-left: 26%;
+                margin-bottom: 1%;}
+    
+    .resume-buttons ul{ margin-top: 30px;}
+    
+    .resume-buttons {padding: 0 300px;}
 
+    section {
+        padding: 60px 2%;
+    }
+    
     .row, 
     .hero-title{
         padding: 0 0;
@@ -94,8 +118,47 @@
         font-size: 150%;
     }
     
-    .icon{
+    .section-skill .icon{
         padding: 0 50%;
     }
     
+    .footer-nav{ padding-left: 0; float:none; text-align: center;}
+    
+    .social-nav{ float: none; padding: 0; text-align: center;}
+    
+}
+
+
+@media only screen and (max-width: 560px) {
+    
+    .main-name{font-size: 380%;}
+    
+    .role-name{ font-size: 180%;}
+    
+    .main-name { margin-left: 30%;
+                margin-bottom: 1%;}
+    
+    .resume-buttons ul{ margin-top: 15px;}
+    
+    .resume-buttons {
+        padding: 0 350px;
+        font-size: 80%;
+    }
+    
+    .resume-buttons li{padding: 10px 10px 5px 10px;}
+    .bar-separator{height:25px;}
+    
+    section{
+        padding: 40px 2%;
+    }
+    
+    .about-pic{
+        display:none;
+    }
+    
+    .long-description{
+        float:none;
+        text-align: center;
+        width: auto;
+    }
 }
