@@ -122,6 +122,10 @@
         padding: 0 50%;
     }
     
+    .footer-nav{ padding-left: 0; float:none; text-align: center;}
+    
+    .social-nav{ float: none; padding: 0; text-align: center;}
+    
 }
 
 
