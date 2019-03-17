@@ -118,7 +118,7 @@
         font-size: 150%;
     }
     
-    .icon{
+    .section-skill .icon{
         padding: 0 50%;
     }
     
@@ -130,7 +130,35 @@
 
 
 @media only screen and (max-width: 560px) {
+    
+    .main-name{font-size: 380%;}
+    
+    .role-name{ font-size: 180%;}
+    
+    .main-name { margin-left: 30%;
+                margin-bottom: 1%;}
+    
+    .resume-buttons ul{ margin-top: 15px;}
+    
+    .resume-buttons {
+        padding: 0 350px;
+        font-size: 80%;
+    }
+    
+    .resume-buttons li{padding: 10px 10px 5px 10px;}
+    .bar-separator{height:25px;}
+    
     section{
-        padding: 0 2%;
+        padding: 40px 2%;
+    }
+    
+    .about-pic{
+        display:none;
+    }
+    
+    .long-description{
+        float:none;
+        text-align: center;
+        width: auto;
     }
 }
