@@ -13,7 +13,7 @@ DONE	- Setup alt's for img
 
 
 
-	- Make it acutally reponsive
+DONE	- Make it acutally reponsive
 
 	- Setup Sticky bar and color effects
 
