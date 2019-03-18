@@ -20,7 +20,7 @@ body{
     
 /*Render fonts*/
     text-rendering: optimizeLegibility;
-/*    overflow-x:hidden;*/
+    overflow-x:hidden;
 }
 
 .clearfix{
@@ -169,7 +169,6 @@ header {
 /* set position as you probably want to */
     -webkit-transform: translate(-50%, -50%);
     transform: translate(-50%, -50%);
-    overflow-x: hidden;
 }
 
 
