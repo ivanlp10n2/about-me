@@ -22,16 +22,12 @@ $(document).ready(function (){
         $('html, body').animate({scrollTop: $('.js--section-skills').offset().top - 50 }, 1000);
     });
     
-    $('.js--scroll-to-profile').click(function(){
-        $('html, body').animate({scrollTop: $('.js--section-about').offset().top - 50 }, 1000);
+    $('.js--scroll-to-faq').click(function(){
+        $('html, body').animate({scrollTop: $('.js--section-faq').offset().top - 50 }, 1000);
     });
     
-    $('.js--scroll-to-profile').click(function(){
-        $('html, body').animate({scrollTop: $('.js--section-about').offset().top - 50 }, 1000);
-    });
-    
-    $('.js--scroll-to-profile').click(function(){
-        $('html, body').animate({scrollTop: $('.js--section-about').offset().top - 50 }, 1000);
+    $('.js--scroll-to-contact').click(function(){
+        $('html, body').animate({scrollTop: $('.js--section-contact').offset().top - 50 }, 1000);
     });
     
 });
