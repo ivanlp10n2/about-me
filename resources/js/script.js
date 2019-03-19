@@ -1,5 +1,7 @@
 $(document).ready(function (){
-   $('.js--section-features').waypoint(function(direction){
+    
+    /*Sticky navigation*/
+   $('.js--section-about').waypoint(function(direction){
       if(direction == "down" ){
         $('nav').addClass('sticky');
       } else {
@@ -8,4 +10,28 @@ $(document).ready(function (){
    }, {
        offset:'60px;'
    })
+    
+    /* Scroll animation */
+    
+    $('.js--scroll-to-profile').click(function(){
+        $('html, body').animate({scrollTop: $('.js--section-about').offset().top - 50 }, 1000);
+    });
+    
+    /* Scroll nav-bar */
+    $('.js--scroll-to-skills').click(function(){
+        $('html, body').animate({scrollTop: $('.js--section-skills').offset().top - 50 }, 1000);
+    });
+    
+    $('.js--scroll-to-profile').click(function(){
+        $('html, body').animate({scrollTop: $('.js--section-about').offset().top - 50 }, 1000);
+    });
+    
+    $('.js--scroll-to-profile').click(function(){
+        $('html, body').animate({scrollTop: $('.js--section-about').offset().top - 50 }, 1000);
+    });
+    
+    $('.js--scroll-to-profile').click(function(){
+        $('html, body').animate({scrollTop: $('.js--section-about').offset().top - 50 }, 1000);
+    });
+    
 });
