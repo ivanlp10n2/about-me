@@ -93,6 +93,11 @@ section{
 /*              NAV HEADER                */
 /*----------------------------------------*/
 
+.nav-link-header {
+    /*My gf told me this looks better. Idk */
+	margin-right: 2%;
+}
+
 .nav-link-header li,
 .nav-link-header a
 {
