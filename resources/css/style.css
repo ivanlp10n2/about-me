@@ -93,9 +93,10 @@ section{
 /*              NAV HEADER                */
 /*----------------------------------------*/
 
-.nav-link-header {
+nav .row {
     /*My gf told me this looks better. Idk */
 	margin-right: 2%;
+    
 }
 
 .nav-link-header li,
@@ -124,12 +125,16 @@ section{
     
 }
 
-.nav-link-header ul {
-  list-style-type: none;
-  margin: 0;
-  padding: 0;
-  overflow: hidden;
-  text-align: right;
+
+
+.nav-link-header {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    text-align: right;
+/*    display: inline-block;*/
+/*    display: none;*/
 }
 
 
@@ -139,7 +144,7 @@ section{
 {
     padding: 0 10px 10px 0;
     border-bottom: 2px solid transparent;
-    -webkit-transition: border-bottom 0.3s;
+    -webkit-transition: border-bottom 0.3s; 
     transition: border-bottom 0.3s;
 }
 
@@ -167,6 +172,17 @@ section{
     color: #555;
     padding: 0 10px 10px 0px;
 } 
+
+.ion-md-menu { 
+/*    display: inline-block;*/
+    display: none;
+    float: right;
+    margin-top: 10px;
+    cursor: pointer;
+    color: #000;
+    font-size: 50px
+
+}
 
 /*----------------------------------------*/
 /*              MAIN PAGE                 */
