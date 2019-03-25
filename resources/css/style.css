@@ -166,12 +166,14 @@ nav .row {
 }
 
 .sticky .nav-link-header li a:link,
-.sticky .nav-link-header li a:visited
+.sticky .nav-link-header li a:visited,
+.sticky .ion-md-menu
 {
     margin-top: 0;
     color: #555;
     padding: 0 10px 10px 0px;
 } 
+
 
 .ion-md-menu { 
 /*    display: inline-block;*/
@@ -179,7 +181,7 @@ nav .row {
     float: right;
     margin-top: 10px;
     cursor: pointer;
-    color: #000;
+    color: #fff;
     font-size: 50px
 
 }

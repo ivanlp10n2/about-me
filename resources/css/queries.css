@@ -72,7 +72,21 @@
         padding: 60px 5%;
     }
     
-    .nav-link-header{ display: none;}
+    .nav-link-header{
+        display: none;
+        text-align: center;
+/*      display:block; 
+        
+        
+        */
+    }
+    .nav-link-header li, 
+    .nav-link-header a {
+        display: inherit;
+    }
+        
+    
+    .ion-md-menu {display: inline-block;}
     
     .main-name { margin-left: 22%;
                 margin-bottom: 1%;}
