@@ -11,7 +11,20 @@ $(document).ready(function (){
        offset:'60px;'
    })
     
+    $('.js-mobile-nav i').click(function(event){
+       var nav = $('.js-main-nav');
+        var icon = $('.js-mobile-nav i'); 
     
+        //I don't believe this method has all I wanted
+        nav.slideToggle(200);
+        if(icon.hasClass('icon ion-md-menu')){
+            icon.addClass('ion-md-close');
+            icon.removeClass('ion-md-menu');
+        }else{
+            icon.addClass('ion-md-menu');
+            icon.removeClass('ion-md-close');
+        }
+    });
     
     
     /* Scroll animation */

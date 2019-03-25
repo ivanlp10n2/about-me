@@ -75,10 +75,8 @@
     .nav-link-header{
         display: none;
         text-align: center;
-/*      display:block; 
+/*      display:block; */
         
-        
-        */
     }
     .nav-link-header li, 
     .nav-link-header a {
@@ -86,7 +84,7 @@
     }
         
     
-    .ion-md-menu {display: inline-block;}
+    .ion-md-menu, .ion-md-close {display: inline-block;}
     
     .main-name { margin-left: 22%;
                 margin-bottom: 1%;}
