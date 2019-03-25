@@ -11,7 +11,12 @@ $(document).ready(function (){
        offset:'60px;'
    })
     
-    
+    $('.js-mobile-nav').click(function(event){
+       var nav = $('.js-main-nav');
+        
+        //I don't believe this method has all I wanted
+        nav.slideToggle(200);
+    });
     
     
     /* Scroll animation */
