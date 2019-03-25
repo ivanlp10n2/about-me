@@ -167,7 +167,7 @@ nav .row {
 
 .sticky .nav-link-header li a:link,
 .sticky .nav-link-header li a:visited,
-.sticky .ion-md-menu
+.sticky .js-mobile-nav i
 {
     margin-top: 0;
     color: #555;
@@ -175,7 +175,8 @@ nav .row {
 } 
 
 
-.ion-md-menu { 
+.ion-md-menu, 
+.ion-md-close { 
 /*    display: inline-block;*/
     display: none;
     float: right;
